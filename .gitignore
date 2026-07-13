@@ -1,0 +1,15 @@
+# Evidências (screenshots) — não versionar imagens
+docs/Evidencias/*.png
+docs/Evidencias/*.jpg
+docs/Evidencias/*.jpeg
+docs/Defeitos/Evidencias/*.png
+docs/Defeitos/Evidencias/*.jpg
+docs/Defeitos/Evidencias/*.jpeg
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
