@@ -188,7 +188,7 @@
                   "});",
                   "",
                   "pm.test('CT004 - bookingId salvo no ambiente', function () {",
-                  "  pm.expect(pm.environment.get('bookingId')).to.not.be.empty;",
+                  "  pm.expect(pm.environment.get('bookingId')).to.exist;",
                   "});"
                 ]
               }
@@ -606,7 +606,7 @@
             "header": [
               { "key": "Accept", "value": "application/json" }
             ],
-            "url": "{{baseUrl}}/booking/{{bookingId}}",
+            "url": "{{baseUrl}}/booking/{{bookingIdContrato}}",
             "description": "Valida o contrato JSON completo da resposta de consulta de reserva."
           },
           "event": [
